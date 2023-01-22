@@ -1,7 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +23,10 @@ function App() {
   );
 }
 
-export default App;
+export function Stinky(){
+  return (
+    <p> dis thang stinky </p> 
+  )
+}
+
+
